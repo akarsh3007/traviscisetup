@@ -6,7 +6,7 @@ object PersonHelper {
 
     if(person.age < 13 )
       "Child"
-    else if(person.age <= 19 && person.age > 13)
+    else if(person.age <= 19 && person.age >= 13)
       "Teen"
     else if(person.age <= 35 && person.age > 19)
       "Young"
