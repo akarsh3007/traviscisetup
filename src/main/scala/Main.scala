@@ -9,5 +9,4 @@ object Main  {
       println(PersonHelper.checkPersonAgeGroup( Person("Test", "User1", 38)))
 
   }
-
 }

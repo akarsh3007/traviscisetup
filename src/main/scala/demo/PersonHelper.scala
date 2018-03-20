@@ -9,11 +9,11 @@ object PersonHelper {
     else if(person.age <= 19 && person.age > 13)
       "Teen"
     else if(person.age <= 35 && person.age > 19)
-      "young"
+      "Young"
     else if(person.age <= 48 && person.age > 35)
       "Mid"
     else
-      "old"
+      "Old"
   }
 
 }
