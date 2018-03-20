@@ -11,6 +11,4 @@ class PersonHelperTest extends FunSuite {
     assert(expected == actual)
 
   }
-
-
 }
