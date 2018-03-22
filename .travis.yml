@@ -1,10 +1,9 @@
 language: scala
-
 scala:
-  - 2.11.8
-
+- 2.11.8
 jdk:
-  - oraclejdk8
-
+- oraclejdk8
 script:
- - sbt ++$TRAVIS_SCALA_VERSION clean compile test
+- sbt ++$TRAVIS_SCALA_VERSION clean compile test
+env:
+  secure: Wx39SVJcJp3PzvQe9YY9K7dnIugqpxHLVfwA/qCfTBslIhcmryomfwb0wFaYp9aIhWCxaPTxBMIfyQooXtoe4bowQm8iygSrFJsON9ufcA6pIxUGlVjqxKU6JK782D33iJWw1uMnAF7rLBD6iSKAfBHT711P4UKWyN1Zw5fUMkAmD/IPEhiYMc4T5qqETmdOKfiwr+xdG/N5rGW6meZIz7L0IRRh9bVvoUzLVh/FyAQMTgTQGKqm8Jw/uxj1RLRczzGmDIDl1e14aDUDNKGXN9MIwuNuyYvJdU8FvZbl1MkBo4Q7pcyyqtm980mpF9/lfAj1XX/3EFIdXLN7/KLAK5PhjpTJAaTFlQp6bdfAK5umrPIGRj64XbGEYg4aIr4/FByEfxzqOoXnzaNqeMMNVYswrdCQ6xFkfwZwv2xLp8msf+7dXRvLxEZ++kXQt3gHYWgPuYUPD/2y7vo1nQWBC6ZlMsf0V2j/Z3ytFxB70tLKoXCD38OyhofI9m7XvbkQkKLyaLcKnbiNDb61ZPdd3xKfU/lhwTkJOcFjRE+4xpzFF8rHt9yBDJywJZOyjck/jUab5rYzG0/XEE8UJQFrbP6nhV8SD/IVaxHH1f5to6iusMIkX3eFQQjrzEDXoJxZGsv/qJxsFW5xzu5VHMdlzn64W9EBqERWc7tanGjNUM0=

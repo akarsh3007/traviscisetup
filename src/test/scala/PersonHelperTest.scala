@@ -42,4 +42,13 @@ class PersonHelperTest extends FunSuite {
     assert(actual == expected)
 
   }
+
+  test("TravisCI env variable") {
+
+    val actual = sys.env("API_KEY")
+    val expected = "super_secret"
+    assert(actual == expected)
+
+  }
+
 }
